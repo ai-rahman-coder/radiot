@@ -1,0 +1,17 @@
+.vision-head{
+    padding-left: 170px;
+    color: #2e294e;
+    margin-bottom: 30px;
+}
+
+.vision{
+    font-family: 'Goblin One', cursive;
+    font-size: 40px;
+    padding-left: 170px;
+    padding-right: 300px;
+    text-align: justify;
+}
+
+.text{
+    height: 624px;
+}

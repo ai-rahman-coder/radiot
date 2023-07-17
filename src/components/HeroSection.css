@@ -1,0 +1,42 @@
+.hero {
+    background-color: #fff;
+    height: 800px;
+    width: 100%;
+    display: flex;  
+}
+    
+.heroleft {
+    width: 60%;
+    font-size: 70px;
+    font-weight: 400;
+    color: #820263;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.heading{
+    font-family: 'Goblin One', cursive;
+    text-align: center;
+    padding-left: 170px;
+}
+
+.heroright {
+    align-items: center;
+    display: flex;
+    width: 40%;
+    background-color: #fff;
+    justify-content: center;
+    padding-right: 300px;
+}
+
+.herologo{
+    height:90px;
+    /* background-color: #820263; */
+    height: 100px;
+}
+.logoborder{
+    background-color: #820263;
+    padding: 50px;
+    border-radius: 50%;
+}

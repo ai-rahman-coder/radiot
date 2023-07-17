@@ -1,0 +1,181 @@
+.footer {
+    /* box-sizing: border-box; */
+    width: 100%;
+    height: min-content;
+    /* 338px */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 60px 40px 30px 60px;
+    background-color: #111111;
+    overflow: visible;
+    align-content: center;
+    flex-wrap: nowrap;
+    gap: 60px;
+    position: absolute;
+    border-color: rgba(0, 0, 0, 0.05);
+    border-style: solid;
+    border-top-width: 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.horizontal {
+    flex-shrink: 0;
+    width: 100%;
+    height: min-content;
+    /* 137px */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 1000px;
+    overflow: visible;
+    position: relative;
+    /* padding: 0px 0px 0px 0px; */
+    align-content: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+    border-radius: 0px 0px 0px 0px;
+    /* background-color: aqua; */
+}
+
+.vertical {
+    flex-shrink: 0;
+    width: 300px;
+    height: min-content;
+    /* 137px */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow: visible;
+    position: relative;
+    padding: 0px 0px 0px 0px;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+    gap: 15px;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.product {
+    flex-shrink: 0;
+    width: auto;
+    /* 61px */
+    height: auto;
+    /* 26px */
+    white-space: pre;
+    overflow: visible;
+    position: relative;
+    font-weight: 600;
+    font-style: normal;
+    font-family: "Inter", sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0em;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.prorows {
+    flex-shrink: 0;
+    width: min-content;
+    /* 67px */
+    height: min-content;
+    /* 96px */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow: visible;
+    position: relative;
+    padding: 0px 0px 0px 0px;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.profeatures {
+    flex-shrink: 0;
+    width: auto;
+    /* 67px */
+    height: auto;
+    /* 25px */
+    white-space: pre;
+    overflow: visible;
+    position: relative;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "Inter", sans-serif;
+    color: var(--token-ba0f8505-1870-43c0-8d4e-7d4bc5406462, #999999);
+    font-size: 16px;
+    letter-spacing: 0em;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.copyright {
+    box-sizing: border-box;
+    flex-shrink: 0;
+    width: 100%;
+    height: min-content;
+    /* 51px */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px 0px 0px;
+    max-width: 1000px;
+    overflow: visible;
+    position: relative;
+    align-content: center;
+    flex-wrap: nowrap;
+    border-radius: 0px 0px 0px 0px;
+    border-color: rgba(255, 255, 255, 0.2);
+    border-style: solid;
+    border-top-width: 1px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    color: white;
+}
+
+.radiotcopy {
+    flex-shrink: 0;
+    width: auto;
+    /* 133px */
+    height: auto;
+    /* 21px */
+    white-space: pre;
+    overflow: visible;
+    position: relative;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "Inter", sans-serif;
+    color: var(--token-ba0f8505-1870-43c0-8d4e-7d4bc5406462, #999999);
+    font-size: 14px;
+    letter-spacing: 0em;
+    line-height: 1.5;
+    text-align: left;
+    /* background-color: aqua; */
+}
+
+.foticons {
+    flex-shrink: 0;
+    width: min-content;
+    /* 50px */
+    height: min-content;
+    /* 20px */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: visible;
+    position: relative;
+    padding: 0px 0px 0px 0px;
+    align-content: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    border-radius: 0px 0px 0px 0px;
+}

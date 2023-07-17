@@ -1,0 +1,155 @@
+.section {
+    box-sizing: border-box;
+    flex-shrink: 0;
+    width: 100%;
+    height: min-content;
+    /* 1219px */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 100px 100px 100px 100px;
+    background-color: #820263;
+    overflow: hidden;
+    position: relative;
+    align-content: center;
+    flex-wrap: nowrap;
+    gap: 60px;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.wrapper {
+    flex-shrink: 0;
+    width: 1000px;
+    height: min-content;
+    /* 480px */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 0px 0px 0px 0px;
+    align-content: center;
+    flex-wrap: nowrap;
+    gap: 60px;
+    border-radius: 0px 0px 0px 0px;
+    background-color: #fff;
+}
+
+.left {
+    flex-shrink: 0;
+    flex: 1 0 0px;
+    width: 1px;
+    height: min-content;
+    /* 246px */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+    position: relative;
+    padding: 0px 0px 0px 0px;
+    align-content: flex-start;
+    gap: 20px;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.redefining {
+    flex-shrink: 0;
+    width: 100%;
+    height: 154px;
+    /* 154px */
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-word;
+    overflow: visible;
+    position: relative;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Goblin One", sans-serif;
+    color: #2e294e;
+    font-size: 32px;
+    letter-spacing: 0em;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.futuristic {
+    flex-shrink: 0;
+    width: 100%;
+    height: auto;
+    /* 72px */
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-word;
+    max-width: 400px;
+    overflow: visible;
+    position: relative;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Figtree", "Figtree Placeholder", sans-serif;
+    color: #2e294e;
+    font-size: 16px;
+    letter-spacing: 0em;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.image {
+    flex-shrink: 0;
+    flex: 1 0 0px;
+    width: 1px;
+    height: 400px;
+    display: block;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    mix-blend-mode: luminosity;
+    overflow: hidden;
+    position: relative;
+    aspect-ratio: 0.98 / 1;
+    background-image: url("/public/images/telecom_black_white.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 40px;
+}
+
+/* .secright {
+    flex-shrink: 0;
+    flex: 1 0 0px;
+    width: 1px;
+    height: 246px; */
+    /* 246px */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+    position: relative;
+    padding: 0px 0px 0px 0px;
+    align-content: flex-start;
+    gap: 20px;
+    border-radius: 0px 0px 0px 0px;
+} */
+
+.powerful {
+    flex-shrink: 0;
+    width: 100%;
+    height: auto;
+    /* 154px */
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-word;
+    overflow: visible;
+    position: relative;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Goblin One", sans-serif;
+    color: #2e294e;
+    font-size: 32px;
+    letter-spacing: 0em;
+    line-height: 1.2;
+    text-align: left;
+}
