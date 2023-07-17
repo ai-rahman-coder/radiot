@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/radiot/static/css/main.532f91ff.css",
+    "main.js": "/radiot/static/js/main.c14bd4c2.js",
+    "static/media/telecom_black_white.webp": "/radiot/static/media/telecom_black_white.9f6832d094581e0e18e0.webp",
+    "index.html": "/radiot/index.html",
+    "main.532f91ff.css.map": "/radiot/static/css/main.532f91ff.css.map",
+    "main.c14bd4c2.js.map": "/radiot/static/js/main.c14bd4c2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.532f91ff.css",
+    "static/js/main.c14bd4c2.js"
+  ]
+}
